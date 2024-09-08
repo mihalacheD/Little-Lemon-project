@@ -182,6 +182,7 @@ input, label{
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem 1 rem;
+
 }
 
 .menu-items{
@@ -189,6 +190,8 @@ input, label{
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
 }
 .menu-container img{
   width: 100%;
@@ -294,4 +297,11 @@ footer section{
 
 .hidden{
   display: none;
+}
+
+
+@media screen and (max-width: 1260px){
+  .banner-img{
+  display: none;
+}
 }
